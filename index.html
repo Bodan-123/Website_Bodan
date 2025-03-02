@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Welcome, {{ username }}</h1>
+    <a href="/static/resume.pdf" target="_blank">View My Resume</a>
+    <br>
+    <a href="/exit">Logout</a>
+</body>
+</html>
